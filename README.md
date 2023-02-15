@@ -23,3 +23,6 @@ This is the implementation of a paper published in AAAI 2023 (Demonstration Trac
   year={2023}
 }
 ```
+
+## Acknowledgment
+This work was supported by Mobile eXperience Business, Samsung Electronics Co., Ltd. (Real-time Service Incident Prediction Development).
