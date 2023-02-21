@@ -61,4 +61,5 @@ python -u simulator.py --action append --collection data_streams --limit 36
 ```
 
 ## Acknowledgments
+<img src="https://time-cad.web.app/static/media/samsung_logo.27a04fee8d4a4d941f86.png"  width="128">
 This work was supported by Mobile eXperience Business, Samsung Electronics Co., Ltd. (Real-time Service Incident Prediction Development).
