@@ -4,11 +4,11 @@ This is the implementation of a paper published in AAAI 2023 (Demonstration Trac
 
 ## Basic Requirements
 ### Web Client
->- Nodejs v16+ with npm v8+ (See https://nodejs.org/en/)
->- Firebase **Web** app (See https://firebase.google.com/docs/firestore/quickstart, *you may use other real-time database services for the stream mode.*)
+- Nodejs v16+ with npm v8+ (See https://nodejs.org/en/)
+- Firebase **Web** app (See https://firebase.google.com/docs/firestore/quickstart, *you may use other real-time database services for the stream mode.*)
 ### API Server
->- Python 3.9 with pip v21+ (See https://www.python.org/downloads/)
->- Anoconda or Miniconda (See https://www.anaconda.com/products/distribution)
+- Python 3.9 with pip v21+ (See https://www.python.org/downloads/)
+- Anoconda or Miniconda (See https://www.anaconda.com/products/distribution)
 
 ## Installation & Running
 ### Web Client
