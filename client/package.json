@@ -1,0 +1,54 @@
+{
+  "name": "anoviz_client",
+  "version": "1.3.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^1.3.6",
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/plots": "^1.0.8",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^4.23.2",
+    "axios": "^0.25.0",
+    "chart.js": "^3.8.0",
+    "chartjs-adapter-moment": "^1.0.0",
+    "chartjs-plugin-annotation": "^1.4.0",
+    "chartjs-plugin-autocolors": "0.0.5",
+    "chartjs-plugin-streaming": "^2.0.0",
+    "crypto-js": "^4.1.1",
+    "danfojs": "^1.1.1",
+    "firebase": "^9.8.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.1.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

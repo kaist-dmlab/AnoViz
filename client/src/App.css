@@ -1,0 +1,72 @@
+.site-layout-content {
+  min-height: 90vh;
+}
+
+.logo {
+  float: left;
+  width: 100px;
+  height: 48px;
+  margin: 8px 0 0 0;
+  background-image: url('./aaai-logo.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.samsung-logo {
+  float: right;
+  width: 100px;
+  height: 64px;
+  margin: 0 8px 0 0;
+  background-image: url('./samsung_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.ant-page-header {
+  padding: 16px 0px;
+}
+
+.ant-layout-header {
+  padding: 0;
+}
+
+.menu-url {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black;
+  font-variant: small-caps;
+}
+
+.ant-form-item {
+  margin-bottom: 0;
+}
+
+.ant-upload.ant-upload-drag {
+  height: 640px;
+  border-width: 2px;
+  border-radius: 8px;
+}
+
+.ant-statistic-title {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.ant-statistic {
+  line-height: 1.25;
+}
+
+.ant-badge-status-dot {
+  width: 12px;
+  height: 12px;
+}
+
+.ant-badge-status-text {
+  font-size: 16px;
+}
+
+.var-card {
+  min-height: 100%;
+}
