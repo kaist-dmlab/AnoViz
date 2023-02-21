@@ -15,6 +15,7 @@ This is the implementation of a paper published in AAAI 2023 (Demonstration Trac
 ```bash
 cd client
 npm install
+# the web application will be accessible at: http://localhost:3000
 npm run start
 ```
 #### For self-hosting: 
@@ -37,7 +38,7 @@ or
 ```bash
 # to run "Anomaly Detector" server
 python -u anomaly_detector.py
-# to run "Computation API" server
+# to run "Computation API" server, the api server will be accessible at: http://localhost:5555
 python -u api_server.py
 ```
 #### For stream simulation:
