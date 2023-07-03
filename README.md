@@ -56,7 +56,7 @@ python -u simulator.py --action append --collection data_streams --limit 36
   title={{AnoViz}: A Visual Inspection Tool of Anomalies in Multivariate Time Series},
   author={Trirat, Patara, and Nam, Youngeun, and Kim, Taeyoon and Lee, Jae-Gil},
   booktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence},
-  pages={},
+  pages={16489-16490},
   year={2023}
 }
 ```
