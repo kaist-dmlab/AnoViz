@@ -2,6 +2,17 @@
 
 This is the implementation of a paper published in AAAI 2023 (Demonstration Track) [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/27088)] [[Video](https://www.youtube.com/watch?v=fOHZO3xiMAA)] [[Poster](https://time-cad.web.app/files/AnoViz_AAAI23_Poster.pdf)] [[Live Demo](https://time-cad.web.app)]
 
+## Citation
+```
+@inproceedings{AnoVizAAAI,
+  title={{AnoViz}: A Visual Inspection Tool of Anomalies in Multivariate Time Series},
+  author={Trirat, Patara, and Nam, Youngeun, and Kim, Taeyoon and Lee, Jae-Gil},
+  booktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence},
+  pages={16489-16490},
+  year={2023}
+}
+```
+
 ## Basic Requirements
 ### Web Client
 - Nodejs v16+ with npm v8+ (See https://nodejs.org/en/)
@@ -50,16 +61,7 @@ python -u simulator.py --action append --collection data_streams --limit 36
 ```
 > These commands are for **Firebase**-based services. You may modify the code depending on your use cases.
 
-## Citation
-```
-@inproceedings{AnoVizAAAI,
-  title={{AnoViz}: A Visual Inspection Tool of Anomalies in Multivariate Time Series},
-  author={Trirat, Patara, and Nam, Youngeun, and Kim, Taeyoon and Lee, Jae-Gil},
-  booktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence},
-  pages={16489-16490},
-  year={2023}
-}
-```
+
 
 ## Acknowledgments
 <img src="https://time-cad.web.app/static/media/samsung_logo.27a04fee8d4a4d941f86.png"  width="128">
