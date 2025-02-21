@@ -17,9 +17,10 @@
     "chartjs-plugin-autocolors": "0.0.5",
     "chartjs-plugin-streaming": "^2.0.0",
     "crypto-js": "^4.1.1",
-    "danfojs": "^1.1.1",
+    "danfojs": "^1.1.2",
     "firebase": "^9.8.2",
     "lodash": "^4.17.21",
+    "mathjs": "^14.2.1",
     "moment": "^2.29.3",
     "react": "^17.0.2",
     "react-chartjs-2": "^4.1.0",
@@ -50,5 +51,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "danfojs": {
+      "fraction.js": "4.2.0"
+    }
   }
 }
