@@ -27,7 +27,7 @@ def _compute_anomaly_scores(x, rec_x, x_val=None, scoring='square_mean'):
         return None # ref. RAMED expect to fill in
 
 def set_thresholds(x, rec_x, is_reconstructed=True, n=1000, scoring='square_mean'):
-    rec_errors = _compute_anomaly_scores(x, rec_x, scoring) if is_reconstructed else rec_x
+    rec_errors = _compute_anomaly_scores(x, rec_x, scoring=scoring) if is_reconstructed else rec_x
     if len(rec_errors.shape) > 2:
         if scoring.split('_')[1] == 'mean':
             rec_errors = np.mean(rec_errors, axis=0)
@@ -41,7 +41,7 @@ def evaluate(thresholds, x, rec_x, labels, is_reconstructed=True, n=1000, scorin
     TP, TN, FP, FN = [], [], [], []
     precision, recall, f1, fpr = [], [], [], []
 
-    rec_errors = _compute_anomaly_scores(x, rec_x, scoring) if is_reconstructed else rec_x
+    rec_errors = _compute_anomaly_scores(x, rec_x, scoring=scoring) if is_reconstructed else rec_x
     if len(rec_errors.shape) > 2:
         if scoring.split('_')[1] == 'mean':
             rec_errors = np.mean(rec_errors, axis=0)
